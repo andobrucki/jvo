@@ -1,0 +1,85 @@
+.video-player-intro {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+.video video {
+  object-fit: cover;
+}
+
+.skip-button {
+  position: fixed;
+  bottom: var(--space-lg);
+  right: 5px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  z-index: 40;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Reset Safari styles */
+  -webkit-appearance: none;
+  appearance: none;
+  color: inherit; /* Prevent blue color */
+  text-decoration: none;
+
+  span {
+    background: none;
+    font-weight: 600;
+  }
+
+  svg {
+    font-size: 2.2rem;
+  }
+}
+
+.spinner-overlay {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  z-index: 50;
+}
+.spinner {
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 50%;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.8;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

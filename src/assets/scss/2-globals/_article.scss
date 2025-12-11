@@ -1,0 +1,42 @@
+body {
+  color: #000;
+  background-color: transparent;
+  font-family: Roboto, sans-serif;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+span {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 500;
+  background-color: #fff;
+  display: inline;
+}
+
+p {
+  display: inline-block;
+  padding: 0 0.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.2s ease;
+}
+
+a:has(img) {
+  background-color: transparent;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bold {
+  font-weight: 800;
+}

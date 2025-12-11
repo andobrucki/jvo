@@ -1,0 +1,535 @@
+{
+  "home": {
+    "id": "home",
+    "title": "Jonas von Ostrowski",
+    "image": {
+      "src": "http://imageipsum.com/1200x675",
+      "alt": "Smiley alt text"
+    }
+  },
+  "about": {
+    "id": "about-jonas",
+    "introText": "<p>Jonas von Ostrowski arbeitet an einer Form von Kunst, die Räume herstellt.</p><p>Seine künstlerische Praxis reicht von Skulpturen, teils in Möbelform, über Installationen und Rauminterventionen in Ausstellungsräumen, die teilweise funktional nutzbar sind, bis hin zum Bau einer bewohnbaren Hausskulptur, dem „House With Clear Shapes and a Complex Entrance“.<br>Nach der Gründung des konzeptuellen Kunstraums „Los Angeles“ im Jahr 2020 kuratiert Ostrowski dort das Programm mit Künstler*innenresidencies und Veranstaltungen und arbeitet an der Weiterentwicklung des Ortes als stetig wachsende, bewohnbare Gesamtskulptur. Von 2014 bis 2017 war Ostrowski Co-Leiter des Münchner Projektraums „Prince of Wales“.Darüber hinaus organisierte und kuratierte er Ausstellungen in verschiedenen Kontexten, darunter 2019 „Setting the Scene – An Exhibition about Artists that Work on Spaces“ bei Lovaas Projects in München.<br>In Zeichnungen beschäftigt er sich mit der Textualität von Innen- und Außenräumen. In den letzten Jahren zeigte er sich zudem für zahlreiche Bühnenbilder verantwortlich, unter anderem für die Münchner Kammerspiele und das Theater Bremen. Für ein Kunst-am-Bau-Projekt in München arbeitet er derzeit an 346 Kleinplastiken, die in einem Grundschulneubau anstelle der Türklinken installiert werden.<br>Jonas von Ostrowski studierte an der HfbK Hamburg, Germany und der École nationale supérieure des arts visuels de La Cambre in Brussels, Belgium. Er ist Träger des Bayerischen Kunstförderpreises 2018 und des Stipendiums für Bildende Kunst der Landeshauptstadt München 2020. Von 2021 bis 2022 war er Stipendiat der Stiftung Kunstfonds. 2024/25 hatte er einen Lehrauftrag an der Kunsthochschule Kassel inne.</p>",
+    "projects": [
+      {
+        "title": "346 Untitled Sculptures",
+        "slug": "346-untitled-sculptures",
+        "description": "Kunst am Bau Projekt, Quivid München, 2025"
+      },
+      {
+        "title": "Vier Durchgänge",
+        "slug": "vier-durchgaenge",
+        "description": "Kunst am Bau Projekt, LMU, München, 2025"
+      },
+      {
+        "title": "Entrechambre",
+        "slug": "entrechambre",
+        "description": "Ausstellung mit Aribert von Ostrowski, Guts, Berlin, 2025"
+      },
+      {
+        "title": "The Office is Reality",
+        "slug": "the-office-is-reality",
+        "description": "Ausstellung, SoSoSo München, 2025"
+      },
+      {
+        "title": "Thin Film",
+        "slug": "thin-film",
+        "description": "Ausstellung mit Marta Riniker-Radich, Porto, Portugal, 2024"
+      },
+      {
+        "title": "Los Angeles",
+        "slug": "los-angeles",
+        "description": "Gesamtskulptur, Nordhessen, seit 2015"
+      },
+      {
+        "title": "House With Clear Shapes and a Complex Entrance",
+        "slug": "house-with-clear-shapes-and-a-complex-entrance",
+        "description": "Bewohnbare Skulptur, Los Angeles, 2020"
+      },
+      {
+        "title": "FFLA (Furniture for Los Angeles)",
+        "slug": "furniture-for-los-angeles",
+        "description": "Möbelskulpturen, Los Angeles, 2020"
+      },
+      {
+        "title": "24 Houses",
+        "slug": "24-houses",
+        "description": "Künstlerbuch, Edition Taube, München, 2022"
+      },
+      {
+        "title": "Verfall",
+        "slug": "verfall",
+        "description": "Bühnenbild, Theater Bremen, 2022"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": 0,
+      "layout": "a",
+      "title": "346 Untitled Sculptures",
+      "description": "Kunst am Bau Projekt, Quivid München, 2025",
+      "slug": "346-untitled-sculptures",
+      "category": "",
+      "tags": ["346-untitled-sculptures"],
+      "year": 2025,
+      "textBlocks": [
+        {
+          "id": "text-1",
+          "content": "<p>Kunst am Bau Projekt, Quivid München<br>in Ausführung, Eröffnung 2025</p><p>Als Ludwig Wittgenstein das Haus seiner Schwester in Wien entwarf, legte er besonderes Augenmerk auf die Gestaltung der Türklinken. Zu wichtig schienen dem analytischen Denker die kleinen, aber doch so zahlreichen Eindrücke, die dieses Werkzeug zum Öffnen von Türen, zum Transfer von einem Raum zum anderen hinterlässt.</p><p>So gesehen ist die Rolle der Türklinken in einem Gebäude und ihre Bedeutung im Erfahren desselben nicht zu unterschätzen. Die mit ihnen verbundenen Handlungen des Öffnens einer Tür sind körperlich, ebenso körperlich wie das darauffolgende Eintreten in den Raum. Diese Handlungen sind unmittelbar miteinander verknüpft – der tatsächliche Eindruck, den die Türklinke in der Hand hinterlässt, gehört zum Akt des Durchschreitens und verbindet sich ganz konkret mit der Tür, mit dem speziellen Raum, in den man eintritt, bzw. den man wieder verlässt.</p><p>Für die Schule an der Passauerstraße werden 346 unterschiedliche Kleinplastiken hergestellt, die als Türklinken funktionieren.</p><p>Jede der aus Aluminium gegossenen Klinken besitzt ihre eigene Form und ist unterschiedlich und mehrfarbig eloxiert. Wie bunte Vögel scheinen sie sich an den Türen im Gebäude niedergelassen zu haben.</p>"
+        },
+        {
+          "id": "text-2",
+          "content": "<p>Diese Kleinplastiken sind auf einfachste Weise geformt. Sie sind im eigentlichen Sinne nicht gestaltet, eher schnell modelliert. Bei genauerer Betrachtung und Berührung erkennt man die Spuren dieses Formens: Fingerabdrücke weisen darauf hin, dass hier das naheliegenste aller denkbaren Werkzeuge benutzt wurde – die Hand. Die Klinken sind alle ähnlich, dennoch gibt es keine, die einer anderen völlig gleicht. In Aussehen und Farbe sind sie alle unterschiedlich, wie die Hände, die sie drücken.</p><p>Jede dieser ausgeprägten Klinkenindividuen ist das sicht- und spürbare Instrument einer Schwellenüberschreitung. Der Eindruck, das Gefühl, das sie bei der Berührung hinterlassen, ist mit den jeweiligen Räumen situativ verbunden.</p><p>Hier passiert dabei noch etwas: indem die Klinken ihre Geformtheit offenbaren, wird das harte Metall sozusagen wieder weich. Dass man sieht und fühlt, dass das Material geformt wurde, zeigt einem, dass Material formbar ist. Und damit wird klar, dass jede Form nur ein Vorschlag ist, jede Türklinke nur ein Modell, jedes Haus, jede Lebensweise, jede Weltsicht nur eine Möglichkeit von vielen.</p><p>Unter Umständen wird hier also nicht nur von einem Klassenraum zum anderen gewechselt, sondern es öffnet sich auch zwischen dem Konkreten und dem Imaginären, zwischen dem Notwendigen und dem Möglichen eine Tür – eine haptische, eine fühlbare Verbindung.</p>"
+        }
+      ],
+      "images": {
+        "main": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "alt text"
+        },
+        "secondary": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "alt text"
+        },
+        "gallery": [
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "alt text"
+          },
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "alt text"
+          }
+        ],
+        "media": [
+          {
+            "type": "video",
+            "src": "http://imageipsum.com/1200x675",
+            "poster": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "layout": "a",
+      "title": "Vier Durchgänge",
+      "description": "Kunst am Bau Projekt, LMU, München, 2025",
+      "slug": "vier-durchgaenge",
+      "category": "",
+      "tags": ["vier-durchgaenge"],
+      "year": 2025,
+
+      "textBlocks": [
+        {
+          "id": "text-1",
+          "content": ""
+        },
+        {
+          "id": "text-2",
+          "content": ""
+        }
+      ],
+      "images": {
+        "main": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "Smiley alt text"
+        },
+        "secondary": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "Smiley alt text"
+        },
+        "gallery": [
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "Smiley alt text"
+          },
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "Smiley alt text"
+          }
+        ],
+        "media": [
+          {
+            "type": "",
+            "src": "",
+            "poster": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "layout": "",
+      "title": "Entrechambre",
+      "description": "Ausstellung mit Aribert von Ostrowski, Guts, Berlin, 2025",
+      "slug": "entrechambre",
+      "category": "",
+      "tags": ["entrechambre"],
+      "year": 2025,
+      "textBlocks": [
+        {
+          "id": "text-1",
+          "content": ""
+        },
+        {
+          "id": "text-2",
+          "content": ""
+        }
+      ],
+      "images": {
+        "main": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "Smiley alt text"
+        },
+        "secondary": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "Smiley alt text"
+        },
+        "gallery": [
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "Smiley alt text"
+          },
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "Smiley alt text"
+          }
+        ],
+        "media": [
+          {
+            "type": "",
+            "src": "",
+            "poster": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "layout": "b",
+      "title": "The office is reality",
+      "description": "Ausstellung, SoSoSo München, 2025",
+      "slug": "the-office-is-reality",
+      "category": "",
+      "tags": ["the-office-is-reality"],
+      "year": 2025,
+      "textBlocks": [
+        {
+          "id": "text-1",
+          "content": "<p>Sososo, München, 2025</p><p>eingebautes Wandelement, textilbespannte Decke, Skulptur, Text</p><p>Die Ausstellung in dem kleinen Raum mit Fensterfront in München besteht aus zwei präzisen Eingriffen und einer Skulptur.<br>Der Teil der Außenmauer, der zwischen der Eingangstür und Schaufenster stehenbleibt ist seinem Volumen nach dupliziert in der Raum hineingeschoben worden, und zwar so, das der Abstand zum Original genauso groß ist, wie der zur Seitenwand. Die Eingangssituation wird damit gleichsam aufgefächert, statt einem Durchgang gibt es insgesamt drei.<br>Die Decke wurde abgehängt und zwar genau zwischen dem Türsturz des Eingangs und dem Türsturz des Durchgangs in den kleinen Hinterraum schräg gegenüber. Da zu dieser Tür eine Treppe mit vier Stufen führt ist die Decke schräg und geht in den hinteren Teil des Raumes auf. Die Decke ist mit einem Stoff bespannt, in den als Motiv eine Holzmaserung eingewebt ist.<br>Eine Skulptur die an eine Prothese oder einen Sattel oder ähnliches erinnert ist mit dem selben Stoff bespannt und an dem im Raum stehenden Wandstück angebracht. An der Rückseite, so dass sie erst sichtbar wird, wenn man den Raum gänzlich betreten hat. An der am weitesten herausragenden Stelle ist der Stoff dunkel glänzend abgegriffen, wie ein von zahllosen Händen polierter Türgriff.<br>Der begleitende Text beschreibt ein Haus mit vier Räumen, Wohnraum, Atelier, Büro und Ausstellungsraum. Gesetzt ist er im Grundriss der Ausstellung.</p>"
+        },
+        {
+          "id": "text-2",
+          "content": ""
+        }
+      ],
+      "images": {
+        "main": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "Smiley alt text"
+        },
+        "secondary": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "Smiley alt text"
+        },
+        "gallery": [
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "Smiley alt text"
+          },
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "Smiley alt text"
+          }
+        ],
+        "media": [
+          {
+            "type": "",
+            "src": "",
+            "poster": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "layout": "d",
+      "title": "Thin Film",
+      "description": "Ausstellung mit Marta Riniker-Radich, A Certain Lack of Coherence, Porto, Portugal, 2024",
+      "slug": "thin-film",
+      "category": "",
+      "tags": ["thin-film"],
+      "year": 2024,
+      "textBlocks": [
+        {
+          "id": "text-1",
+          "content": "<p>Der Kunstraum „Uma Certa Falta de Coerência“ in Porto ist speziell, nicht nur in den räumlichen Gegebenheiten sondern auch in seiner mitlerweile über 16-jährigen Geschichte: Die seit Eröffnung unrenovierten Räume tragen Spuren der vergangenen Ausstellungen von Künstler*innen wie Dan Graham, Josephine Pryde und Stefan Dillemuth.</p><p>Die vier gezeigten Skulpturen gehen jeweils eine spezifische Beziehung zu den Räumen ein. Die ersten beiden sind Arbeiten aus der I do Serie, Konstrukte aus Holz, Stahlrohr und weiteren Materialien, die mit einem Stoff bezogen sind, dessen eingewebtes Muster an Holzmaserung erinnert. Durch ihre vernakuläre Anmutung und die niedrige Hängehöhe verbinden sie sich mit ihrer Umgebung.<br>Im dritten der vier aufeinanderfolgenden Räume ist eine aus Paneelen bestehende Arbeit an der Decke installiert, im letzten Raum steht ein niedriger Stuhl. Alle diese Objekte bestehen aus den selben Materialien. Sie agieren gleichzeitig als künstlerische Arbeiten und räumliche Elemente. So ist die Hierarchie – ist der Raum für die Arbeiten da, oder aber die Arbeiten für den Raum – im Changieren begriffen. Während man die wie von zahlreichen Berührungen dunkel-glänzenden Stellen der Wandarbeiten bemerkt, unter der Deckeninstallation hindurchgeht und sich auf den Stuhl setzt, offenbart sich der Raum in seiner Beschaffenheit.</p>"
+        }
+      ],
+      "images": {
+        "main": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "Smiley alt text"
+        },
+        "secondary": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "Smiley alt text"
+        },
+        "gallery": [
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "Smiley alt text"
+          },
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "Smiley alt text"
+          }
+        ],
+        "media": [
+          {
+            "type": "",
+            "src": "",
+            "poster": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "layout": "c",
+      "title": "Los Angeles",
+      "description": "Gesamtskulptur, Nordhessen, seit 2015",
+      "slug": "los-angeles",
+      "category": "",
+      "tags": ["los-angeles"],
+      "year": 2015,
+      "textBlocks": [
+        {
+          "id": "text-1",
+          "content": "<p>Gesamtskulptur, konzeptueller Kunstraum, Nordhessen, seit 2015</p><p>Los Angeles liegt in der Mitte Deutschlands, am Rande eines kleinen Dorfes unweit von Kassel. Das fast 3000 m2 große Grundstück entwickelt sich sukzessive zu einer sich ständig erweiternden bewohnbaren Skulptur, die als Treffpunkt und Arbeits- und Aufenthaltsort für Künstler*innen funktioniert. Aufenthalte in Los Angeles haben das Ziel der Herstellung von künstlerischen Arbeiten, die Los Angeles als Ort weiterentwickeln und auch praktische Strukturen, beispielsweise zum Schlafen, Essen, Arbeiten etc. bieten.</p><p>Das Projekt Los Angeles dreht sich um Themen wie die Zusammenhänge von praktischen Notwendigkeiten und künstlerischen Fragestellungen, die Möglichkeiten eines ländlichen gegenüber eines urbanen Kontextes, die Befragung unterschiedlicher Modi künstlerischer Zusammenarbeit, die Bedingungen einer selbstorganisierten Form von Kunst und das realitätsverändernde Potenzial von Gegenständen und Räumen.</p><p>Los Angeles eröffnete im September 2020 mit der Fertigstellung der ersten bewohnbaren Skulptur, dem House With Clear Shapes and a Complex Entrance.</p>"
+        },
+        {
+          "id": "text-2",
+          "content": ""
+        }
+      ],
+      "images": {
+        "main": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "Smiley alt text"
+        },
+        "secondary": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "Smiley alt text"
+        },
+        "gallery": [
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "Smiley alt text"
+          },
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "Smiley alt text"
+          }
+        ],
+        "media": [
+          {
+            "type": "",
+            "src": "",
+            "poster": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "layout": "a",
+      "title": "House With Clear Shapes and a Complex Entrance",
+      "description": "Bewohnbare Skulptur, Los Angeles, 2020",
+      "slug": "house-with-clear-shapes-and-a-complex-entrance",
+      "category": "",
+      "tags": ["house-with-clear-shapes-and-a-complex-entrance"],
+      "year": 2020,
+      "textBlocks": [
+        {
+          "id": "text-1",
+          "content": "<p>bewohnbare Skulptur, Los Angeles, Günsterode, 2020</p><p>bAusgestattet mit Strom, Wasser und Heizung bietet die erste bewohnbare Skulptur in Los Angeles Platz für bis zu drei Personen. In ihrer Form, Materialität und räumlichen Struktur schlägt sie eine spezifische Beziehung zwischen „Innen“ und „Außen“ vor.</p><p>Der Entwurf des House With Clear Shapes and a Complex Entrance ist aus einem konzeptuellen Grundriss mit einer Abfolge von vier Räumen entwickelt. Der Eingangsraum mit seiner schleusenartigen Tür, der Durchgangsraum, der Treppenraum und schließlich der eigentliche Innenraum bilden eine räumliche Erzählung von einem Außen in ein Inneres.</p><p>Der Körper des House With Clear Shapes and a Complex Entrance besteht aus zwei gestapelten geometrischen Volumen - das untere ist dreieckig, das obere quadratisch. Die Innenräume ergeben sich aus den Überschneidungen und Überlagerungen dieser einfachen Formen. Die elementaren „Funktionen“ (Betreten, Weitergehen, Aufsteigen) der Räume sind bestimmend für die jeweilige Gestaltung, für die Auswahl von Material, Farbe oder die Konzeption der Beleuchtung.</p>"
+        },
+        {
+          "id": "text-2",
+          "content": "<p>Im Inneren des House With Clear Shapes and a Complex Entrance gibt es keine anderen Wände als die, die sich aus der Überlappung der beiden Volumen ergeben. Die Form des Äußeren übersetzt die Form des Inneren und umgekehrt </p><p>Die Möbel sind von Jonas von Ostrowski als freistehende, raumbestimmende und skulpturale Einheiten entworfen. Eine Ausstellung mit diesen Stücken namens FFLA (Furniture for Los Angeles) tourte durch Deutschland, beginnend im Kunstraum München, über Philipp Pflug Contemporary in Frankfurt bis zu ihrem endgültigen Bestimmungsort in Los Angeles, Deutschland.</p><p>Das House With Clear Shapes and a Complex Entrance wurde in Zusammenarbeit mit dem Architekturbüro Studio Nitsche realisiert und größtenteils in Eigenarbeit gebaut.</p>"
+        }
+      ],
+      "images": {
+        "main": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "Smiley alt text"
+        },
+        "secondary": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "Smiley alt text"
+        },
+        "gallery": [
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "Smiley alt text"
+          },
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "Smiley alt text"
+          }
+        ],
+        "media": [
+          {
+            "type": "",
+            "src": "",
+            "poster": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "layout": "b",
+      "title": "FFLA (Furniture for Los Angeles)",
+      "description": "Möbelskulpturen, Los Angeles, 2020",
+      "slug": "furniture-for-los-angeles",
+      "category": "",
+      "tags": ["furniture-for-los-angeles"],
+      "year": 2020,
+      "textBlocks": [
+        {
+          "id": "text-1",
+          "content": "<p>Möbelskulpturen für das House With Clear Shapes and a Complex Entrance, 2020</p><p>Unter dem Titel FFLA - Furniture for Los Angeles reisten die Möbel für das House With Clear Shapes and a Complex Entrance, vom Kunstraum München über die Galerie Philipp Pflug Contemporary in Frankfurt nach Los Angeles, Günsterode, dem end- gültigen Installations- und Ausstellungsort. Sie sind als freistehende, raumbestimmende und skulpturale Einheiten entworfen und bieten alle notwendigen praktischen Strukturen.</p><p>Bei den in der Ausstellung ausgerichteten Talks, Lesungen und Kochevents wurden die solchermaßen eingerichteten Ausstellungsräume Orte für Diskussion und Auseinandersetzung zum Projekt und zu den mit Los Angeles verbundenen Themen.</p>"
+        },
+        {
+          "id": "text-2",
+          "content": ""
+        }
+      ],
+      "images": {
+        "main": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "Smiley alt text"
+        },
+        "secondary": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "Smiley alt text"
+        },
+        "gallery": [
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "Smiley alt text"
+          },
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "Smiley alt text"
+          }
+        ],
+        "media": [
+          {
+            "type": "",
+            "src": "",
+            "poster": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "layout": "c",
+      "title": "24 Houses",
+      "description": "Künstlerbuch, Edition Taube, München, 2022",
+      "slug": "24-houses",
+      "category": "",
+      "tags": ["24-houses"],
+      "year": 2022,
+      "textBlocks": [
+        {
+          "id": "text-1",
+          "content": "<p>Künstlerbuch, Edition Taube, 2022<br>48 Seiten, 24 Farbabbildungen, 22.5 × 31.5 cm</p><p>24 Houses umfasst eine Auswahl von Zeichnungen aus der Houses Serie (2015 - 2020): Detaillierte Grundrisse von imaginären Häusern, jeweils versehen mit einem Titel als Bildunterschrift.</p><p>Die Houses beschreiben weniger zu bauende Häuser als sie vielmehr Ausdruck emotionaler Zustände, räumliche Entsprechungen von Befindlichkeiten oder Bühnen für die Problematiken des Menschseins sind. Der Grundriss wird verwendet als eine lesbare Form, ähnlich einem Text. Dabei geht es ihm um das narrative Potential der von den Wänden, Türen und Fenstern gebildeten Zusammenhänge. 24 Houses ist demnach eine Sammlung räumlicher Kurzgeschichten, ein Roman in Grundrissform mit 24 Kapiteln.</p>"
+        },
+        {
+          "id": "text-2",
+          "content": ""
+        }
+      ],
+      "images": {
+        "main": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "Smiley alt text"
+        },
+        "secondary": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "Smiley alt text"
+        },
+        "gallery": [
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "Smiley alt text"
+          },
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "Smiley alt text"
+          }
+        ],
+        "media": [
+          {
+            "type": "",
+            "src": "",
+            "poster": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "layout": "c",
+      "title": "Verfall",
+      "description": "Bühnenbild, Theater Bremen, 2022",
+      "slug": "verfall",
+      "category": "",
+      "tags": ["verfall"],
+      "year": 2022,
+      "textBlocks": [
+        {
+          "id": "text-1",
+          "content": "<p>Bühnenbild, Theater Bremen, 2022</p><p>Das Stück „Verfall“ von Felix Rothenhäusler untersucht das menschliche Verhältnis zur Natur und unsere eigene Vergänglichkeit anhand von Texten, die von einem KI-Textgenerator geschrieben wurden.</p><p>Das Bühnenbild besteht aus einem dreidimensionalen Raster, das, in alle Richtungen leicht verdreht, den gesamten Theaterraum inklusive Tribüne einnimmt. In seiner Form - die unregelmäßigen Streben sind mit einer blauen, moosähnlichen Oberfläche überzogen - liegt es irgendwo zwischen künstlich und natürlich. In dieser Superstruktur, die alles überlagert und durchdringt, ordnen sich die Schauspieler in tableauartigen Szenen an.</p>"
+        },
+        {
+          "id": "text-2",
+          "content": ""
+        }
+      ],
+      "images": {
+        "main": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "Smiley alt text"
+        },
+        "secondary": {
+          "src": "http://imageipsum.com/1200x675",
+          "alt": "Smiley alt text"
+        },
+        "gallery": [
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "Smiley alt text"
+          },
+          {
+            "src": "http://imageipsum.com/1200x675",
+            "alt": "Smiley alt text"
+          }
+        ],
+        "media": [
+          {
+            "type": "",
+            "src": "",
+            "poster": ""
+          }
+        ]
+      }
+    }
+  ]
+}

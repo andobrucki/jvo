@@ -1,0 +1,78 @@
+//* Page Layout
+.page {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  &__logo-wrapper {
+    position: fixed;
+    top: var(--space-lg);
+    left: 20%;
+    z-index: 1000;
+    height: 30px;
+    width: 203.25px;
+    a {
+      display: block;
+      text-decoration: none;
+    }
+    img {
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+//* Styles for page navigation (closed)
+.page-navigation {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  flex-shrink: 0;
+  width: 35%;
+  z-index: 20;
+  overflow-y: auto;
+  padding-top: calc(40px + (2 * var(--space-lg)));
+  scrollbar-width: none;
+}
+
+//* Styles for page navigation (open)
+.page-navigation--open {
+  width: 35%;
+  transition: width 0.3s ease;
+}
+
+//! MOBILE STYLES
+@media (max-width: 768px) {
+  //! Closed navigation
+  .page-navigation {
+    position: static;
+    width: 100%;
+    height: 100vh;
+  }
+  //! Open navigation
+  .page-navigation--open {
+    width: 100%;
+  }
+}
+
+//* Scrollbar
+.page-navigation::-webkit-scrollbar {
+  width: 5px;
+  height: 5px; /* For horizontal scrollbars */
+}
+
+.page-navigation::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 2px;
+}
+
+.canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
