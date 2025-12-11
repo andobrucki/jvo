@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 
 type Image = {
   src: string;
@@ -14,18 +13,18 @@ export default function Home({ title, image }: HomeProps) {
   return (
     <section className="home">
       <div className="home-container">
+        {/* Linke Spalte: Titel */}
+        <div className="home-text">
+          <h1>{title}</h1>
+        
+        </div>
+        {/* Rechte Spalte: Bild */}
         <img
           src={image.src}
           alt={image.alt}
           className="home-image"
           loading="lazy"
         />
-        <div className="home-text">
-          <h1>{title}</h1>
-          <Link to="/bio">
-            <p>Bio</p>
-          </Link>
-        </div>
       </div>
     </section>
   );

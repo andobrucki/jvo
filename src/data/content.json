@@ -3,7 +3,7 @@
     "id": "home",
     "title": "Jonas von Ostrowski",
     "image": {
-      "src": "http://imageipsum.com/1200x675",
+      "src": "http://imageipsum.com/1200x670",
       "alt": "Smiley alt text"
     }
   },
@@ -85,28 +85,21 @@
       ],
       "images": {
         "main": {
-          "src": "http://imageipsum.com/1200x675",
+          "src": "images/346-untitled-sculptures/346-untitled-sculptures.png",
           "alt": "alt text"
         },
         "secondary": {
-          "src": "http://imageipsum.com/1200x675",
+          "src": "/images/346-untitled-sculptures/346-untitled-sculptures.png",
           "alt": "alt text"
         },
         "gallery": [
           {
-            "src": "http://imageipsum.com/1200x675",
+            "src": "/images/346-untitled-sculptures/346-untitled-sculptures.png",
             "alt": "alt text"
           },
           {
-            "src": "http://imageipsum.com/1200x675",
+            "src": "/images/346-untitled-sculptures/346-untitled-sculptures.png",
             "alt": "alt text"
-          }
-        ],
-        "media": [
-          {
-            "type": "video",
-            "src": "http://imageipsum.com/1200x675",
-            "poster": ""
           }
         ]
       }
@@ -227,21 +220,17 @@
       ],
       "images": {
         "main": {
-          "src": "http://imageipsum.com/1200x675",
-          "alt": "Smiley alt text"
-        },
-        "secondary": {
-          "src": "http://imageipsum.com/1200x675",
-          "alt": "Smiley alt text"
+          "src": "images/the-office-is-reality/the-office-is-reality.png",
+          "alt": "alt text"
         },
         "gallery": [
           {
-            "src": "http://imageipsum.com/1200x675",
-            "alt": "Smiley alt text"
+            "src": "images/the-office-is-reality/the-office-is-reality.png",
+            "alt": "alt text"
           },
           {
-            "src": "http://imageipsum.com/1200x675",
-            "alt": "Smiley alt text"
+            "src": "images/the-office-is-reality/the-office-is-reality.png",
+            "alt": "alt text"
           }
         ],
         "media": [
@@ -270,21 +259,21 @@
       ],
       "images": {
         "main": {
-          "src": "http://imageipsum.com/1200x675",
-          "alt": "Smiley alt text"
+          "src": "images/thin-film/thin-film-01.png",
+          "alt": "alt text"
         },
         "secondary": {
-          "src": "http://imageipsum.com/1200x675",
-          "alt": "Smiley alt text"
+          "src": "images/thin-film/thin-film-02.png",
+          "alt": "alt text"
         },
         "gallery": [
           {
-            "src": "http://imageipsum.com/1200x675",
-            "alt": "Smiley alt text"
+            "src": "images/thin-film/thin-film-01.png",
+            "alt": "alt text"
           },
           {
-            "src": "http://imageipsum.com/1200x675",
-            "alt": "Smiley alt text"
+            "src": "images/thin-film/thin-film-02.png",
+            "alt": "alt text"
           }
         ],
         "media": [
@@ -317,21 +306,21 @@
       ],
       "images": {
         "main": {
-          "src": "http://imageipsum.com/1200x675",
-          "alt": "Smiley alt text"
+          "src": "images/los-angeles/los-angeles-01.png",
+          "alt": "alt text"
         },
         "secondary": {
-          "src": "http://imageipsum.com/1200x675",
-          "alt": "Smiley alt text"
+          "src": "images/los-angeles/los-angeles-02.png",
+          "alt": "alt text"
         },
         "gallery": [
           {
-            "src": "http://imageipsum.com/1200x675",
-            "alt": "Smiley alt text"
+            "src": "images/los-angeles/los-angeles-01.png",
+            "alt": "alt text"
           },
           {
-            "src": "http://imageipsum.com/1200x675",
-            "alt": "Smiley alt text"
+            "src": "images/los-angeles/los-angeles-02.png",
+            "alt": "alt text"
           }
         ],
         "media": [
@@ -364,21 +353,17 @@
       ],
       "images": {
         "main": {
-          "src": "http://imageipsum.com/1200x675",
-          "alt": "Smiley alt text"
-        },
-        "secondary": {
-          "src": "http://imageipsum.com/1200x675",
-          "alt": "Smiley alt text"
+          "src": "images/house-with-clear-shapes-and-a-complex-entrance/house.png",
+          "alt": "alt text"
         },
         "gallery": [
           {
-            "src": "http://imageipsum.com/1200x675",
-            "alt": "Smiley alt text"
+            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house.png",
+            "alt": "alt text"
           },
           {
-            "src": "http://imageipsum.com/1200x675",
-            "alt": "Smiley alt text"
+            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house.png",
+            "alt": "alt text"
           }
         ],
         "media": [
@@ -411,20 +396,16 @@
       ],
       "images": {
         "main": {
-          "src": "http://imageipsum.com/1200x675",
-          "alt": "Smiley alt text"
-        },
-        "secondary": {
-          "src": "http://imageipsum.com/1200x675",
+          "src": "images/furniture-for-los-angeles/ffla.png",
           "alt": "Smiley alt text"
         },
         "gallery": [
           {
-            "src": "http://imageipsum.com/1200x675",
+            "src": "images/furniture-for-los-angeles/ffla.png",
             "alt": "Smiley alt text"
           },
           {
-            "src": "http://imageipsum.com/1200x675",
+            "src": "images/furniture-for-los-angeles/ffla.png",
             "alt": "Smiley alt text"
           }
         ],
@@ -458,21 +439,21 @@
       ],
       "images": {
         "main": {
-          "src": "http://imageipsum.com/1200x675",
-          "alt": "Smiley alt text"
+          "src": "images/24-houses/24-houses-01.png",
+          "alt": "alt text"
         },
         "secondary": {
-          "src": "http://imageipsum.com/1200x675",
-          "alt": "Smiley alt text"
+          "src": "images/24-houses/24-houses-02.png",
+          "alt": "alt text"
         },
         "gallery": [
           {
-            "src": "http://imageipsum.com/1200x675",
-            "alt": "Smiley alt text"
+            "src": "images/24-houses/24-houses-01.png",
+            "alt": "alt text"
           },
           {
-            "src": "http://imageipsum.com/1200x675",
-            "alt": "Smiley alt text"
+            "src": "images/24-houses/24-houses-01.png",
+            "alt": "alt text"
           }
         ],
         "media": [
@@ -505,21 +486,21 @@
       ],
       "images": {
         "main": {
-          "src": "http://imageipsum.com/1200x675",
-          "alt": "Smiley alt text"
+          "src": "images/verfall/verfall-01.png",
+          "alt": "alt text"
         },
         "secondary": {
-          "src": "http://imageipsum.com/1200x675",
-          "alt": "Smiley alt text"
+          "src": "images/verfall/verfall-02.png",
+          "alt": "alt text"
         },
         "gallery": [
           {
-            "src": "http://imageipsum.com/1200x675",
-            "alt": "Smiley alt text"
+            "src": "images/verfall/verfall-01.png",
+            "alt": "alt text"
           },
           {
-            "src": "http://imageipsum.com/1200x675",
-            "alt": "Smiley alt text"
+            "src": "images/verfall/verfall-01.png",
+            "alt": "alt text"
           }
         ],
         "media": [

@@ -25,33 +25,60 @@ export default function About({ introText, projects }: AboutProps) {
     }
   }, []);
 
+  const scrollToProject = (slug: string) => {
+    const id = slug;
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+      window.history.replaceState(null, "", `#${id}`);
+    }
+  };
+
   console.log(projects);
 
   return (
     <section className="about-page">
-      {/* Intro Text */}
-      <div
-        className="about-intro"
-        dangerouslySetInnerHTML={{ __html: introText }}
-      />
-
-      {/* Projektliste */}
+      {/* Linke Spalte: Projektliste / Inhaltsverzeichnis */}
       <div className="about-projects">
         <ul>
           {projects.map((proj, idx) => (
             <li key={idx}>
               {/* 👇 Link setzt nur den Hash */}
-              <a href={`#project-${proj.slug}`}>{proj.title}</a>:{" "}
-              {proj.description}
+              <a
+                href={`#${proj.slug}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToProject(proj.slug);
+                }}
+              >
+                {proj.title}
+              </a>
+              <br />
+              <p>{proj.description}</p>
             </li>
           ))}
+          <li>
+            <Link to="/bio">
+              <p>Vita und Ausstellungsliste</p>
+            </Link>
+          </li>
+          <li>
+            Titelbild: The world is narrow and the mind is wide, AdbK München,
+            2014
+          </li>
         </ul>
       </div>
 
+      {/* Rechte Spalte: Intro Text */}
+      <div
+        className="about-intro"
+        dangerouslySetInnerHTML={{ __html: introText }}
+      />
+
       {/* Optionaler Link zurück zur Startseite */}
-      <div className="about-back">
+      {/* <div className="about-back">
         <Link to="/">Zurück zur Startseite</Link>
-      </div>
+      </div> */}
     </section>
   );
 }
