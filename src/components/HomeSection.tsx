@@ -9,13 +9,12 @@ type HomeProps = {
   image: Image;
 };
 
-export default function Home({ title, image }: HomeProps) {
+export default function Home({ image }: HomeProps) {
   return (
     <section className="home">
       <div className="home-container">
         {/* Linke Spalte: Titel */}
         <div className="home-text">
-          <h1>{title}</h1>
         
         </div>
         {/* Rechte Spalte: Bild */}

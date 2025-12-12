@@ -37,7 +37,7 @@ export default function About({ introText, projects }: AboutProps) {
   console.log(projects);
 
   return (
-    <section className="about-page">
+    <section id="about" className="about-page">
       {/* Linke Spalte: Projektliste / Inhaltsverzeichnis */}
       <div className="about-projects">
         <ul>

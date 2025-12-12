@@ -3,7 +3,7 @@
     "id": "home",
     "title": "Jonas von Ostrowski",
     "image": {
-      "src": "http://imageipsum.com/1200x670",
+      "src": "images/titelbild/the-world-is-narrow-and-the-mind-is-wide.png",
       "alt": "Smiley alt text"
     }
   },
@@ -76,7 +76,7 @@
       "textBlocks": [
         {
           "id": "text-1",
-          "content": "<p>Kunst am Bau Projekt, Quivid München<br>in Ausführung, Eröffnung 2025</p><p>Als Ludwig Wittgenstein das Haus seiner Schwester in Wien entwarf, legte er besonderes Augenmerk auf die Gestaltung der Türklinken. Zu wichtig schienen dem analytischen Denker die kleinen, aber doch so zahlreichen Eindrücke, die dieses Werkzeug zum Öffnen von Türen, zum Transfer von einem Raum zum anderen hinterlässt.</p><p>So gesehen ist die Rolle der Türklinken in einem Gebäude und ihre Bedeutung im Erfahren desselben nicht zu unterschätzen. Die mit ihnen verbundenen Handlungen des Öffnens einer Tür sind körperlich, ebenso körperlich wie das darauffolgende Eintreten in den Raum. Diese Handlungen sind unmittelbar miteinander verknüpft – der tatsächliche Eindruck, den die Türklinke in der Hand hinterlässt, gehört zum Akt des Durchschreitens und verbindet sich ganz konkret mit der Tür, mit dem speziellen Raum, in den man eintritt, bzw. den man wieder verlässt.</p><p>Für die Schule an der Passauerstraße werden 346 unterschiedliche Kleinplastiken hergestellt, die als Türklinken funktionieren.</p><p>Jede der aus Aluminium gegossenen Klinken besitzt ihre eigene Form und ist unterschiedlich und mehrfarbig eloxiert. Wie bunte Vögel scheinen sie sich an den Türen im Gebäude niedergelassen zu haben.</p>"
+          "content": "<p>Kunst am Bau Projekt, Quivid München</p><p>in Ausführung, Eröffnung 2025</p><p>Als Ludwig Wittgenstein das Haus seiner Schwester in Wien entwarf, legte er besonderes Augenmerk auf die Gestaltung der Türklinken. Zu wichtig schienen dem analytischen Denker die kleinen, aber doch so zahlreichen Eindrücke, die dieses Werkzeug zum Öffnen von Türen, zum Transfer von einem Raum zum anderen hinterlässt.</p><p>So gesehen ist die Rolle der Türklinken in einem Gebäude und ihre Bedeutung im Erfahren desselben nicht zu unterschätzen. Die mit ihnen verbundenen Handlungen des Öffnens einer Tür sind körperlich, ebenso körperlich wie das darauffolgende Eintreten in den Raum. Diese Handlungen sind unmittelbar miteinander verknüpft – der tatsächliche Eindruck, den die Türklinke in der Hand hinterlässt, gehört zum Akt des Durchschreitens und verbindet sich ganz konkret mit der Tür, mit dem speziellen Raum, in den man eintritt, bzw. den man wieder verlässt.</p><p>Für die Schule an der Passauerstraße werden 346 unterschiedliche Kleinplastiken hergestellt, die als Türklinken funktionieren.</p><p>Jede der aus Aluminium gegossenen Klinken besitzt ihre eigene Form und ist unterschiedlich und mehrfarbig eloxiert. Wie bunte Vögel scheinen sie sich an den Türen im Gebäude niedergelassen zu haben.</p>"
         },
         {
           "id": "text-2",
@@ -154,7 +154,7 @@
     },
     {
       "id": 2,
-      "layout": "",
+      "layout": "b",
       "title": "Entrechambre",
       "description": "Ausstellung mit Aribert von Ostrowski, Guts, Berlin, 2025",
       "slug": "entrechambre",
@@ -164,7 +164,7 @@
       "textBlocks": [
         {
           "id": "text-1",
-          "content": ""
+          "content": "<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>"
         },
         {
           "id": "text-2",

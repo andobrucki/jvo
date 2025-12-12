@@ -41,26 +41,29 @@ export default function ProjectSection({ project }: ProjectSectionProps) {
     return null;
   }
 
-  const { layout, title, description, year, textBlocks, images } = project;
+  const { layout, title, textBlocks, images } = project;
   const text1 = textBlocks[0];
   const text2 = textBlocks[1];
 
-  const renderText = (block?: TextBlock) =>
-    block ? (
-      <div
-        className="project-text-block"
-        dangerouslySetInnerHTML={{ __html: block.content }}
-      />
-    ) : null;
+  // const renderText = (block?: TextBlock) =>
+  //   block ? (
+  //     <div
+  //       className="project-text-block"
+  //       dangerouslySetInnerHTML={{ __html: block.content }}
+  //     />
+  //   ) : null;
+
+const renderText = (block?: TextBlock) =>
+  block ? (
+    <div
+      className="project-text-block"
+      dangerouslySetInnerHTML={{ __html: block.content }}
+    />
+  ) : null;
 
   const renderImage = (img?: Image, className?: string) =>
     img ? (
-      <img
-        src={img.src}
-        alt={img.alt}
-        className={className}
-        loading="lazy"
-      />
+      <img src={img.src} alt={img.alt} className={className} loading="lazy" />
     ) : null;
 
   const renderLayout = () => {
@@ -125,7 +128,6 @@ export default function ProjectSection({ project }: ProjectSectionProps) {
         return (
           <div className="col-single">
             <h2>{title}</h2>
-            <p>{description}</p>
             {renderImage(images?.main, "project-main-image")}
             {textBlocks.map((block) => (
               <div
@@ -143,9 +145,9 @@ export default function ProjectSection({ project }: ProjectSectionProps) {
   return (
     <section id={project.slug} className={`project-section layout-${layout}`}>
       <header className="project-header">
-        <div className="project-meta">
+        {/* <div className="project-meta">
           <p className="project-description">{description}</p>
-        </div>
+        </div> */}
       </header>
 
       <div className="project-inner">{renderLayout()}</div>
