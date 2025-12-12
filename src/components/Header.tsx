@@ -1,51 +1,34 @@
 import { useState, useEffect } from "react";
-
 import Navigation from "./Navigation";
+
 export default function Header() {
   const [isCompressed, setIsCompressed] = useState(false);
 
   useEffect(() => {
-    const section = document.querySelector("#about");
-    if (!section) return;
+    const handleScroll = () => {
+      // Check, wie weit vom oberen Rand gescrollt wurde
+      if (window.scrollY > 50 && !isCompressed) {
+        // Sobald wir 50px nach unten scrollen → komprimieren
+        setIsCompressed(true);
+      }
+    };
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          // Sobald About sichtbar wird → compressed
-          setIsCompressed(entry.isIntersecting);
-        });
-      },
-      { threshold: 0.2 } // Fein justierbar
-    );
+    window.addEventListener("scroll", handleScroll);
 
-    observer.observe(section);
-    return () => observer.disconnect();
-  }, []);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [isCompressed]);
 
   return (
     <header className="header">
       <div className="title-wrapper">
-        {/* voller Titel */}
-        <h1 className={`title-full ${isCompressed ? "hidden-title" : ""}`}>
-          <span className="j">J</span>
-          <span className="onas">onas</span>
-          <span className="space"> </span>
-          <span className="v">v</span>
-          <span className="on">on</span>
-          <span className="space"> </span>
-          <span className="o">O</span>
-          <span className="strowski">strowski</span>
+        <h1 className={`title-full ${isCompressed ? "hidden" : ""}`}>
+          Jonas von Ostrowski
         </h1>
-
-        {/* komprimierter Titel */}
-        <h1 className={`title-short ${isCompressed ? "visible-title" : ""}`}>
-          <span className="j">J</span>
-          <span className="v">V</span>
-          <span className="o">O</span>
+        <h1 className={`title-short ${isCompressed ? "visible" : ""}`}>
+          J V O
         </h1>
       </div>
 
-      {/* Navigation */}
       <Navigation />
     </header>
   );

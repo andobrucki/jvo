@@ -1,6 +1,6 @@
 .header {
-    // border: 2px tomato solid;
-    height: 400px;
+  // border: 2px tomato solid;
+  height: 400px;
   position: fixed;
   top: 0;
   left: 0;
@@ -26,33 +26,14 @@
     transform 0.4s ease;
 }
 
-/* Startzustand */
+.title-full.hidden {
+  opacity: 0;
+}
 .title-short {
   opacity: 0;
 }
-.hidden-title {
-  opacity: 0;
-  transform: translateY(-10px);
-}
-.visible-title {
+.title-short.visible {
   opacity: 1;
-  transform: translateY(0px);
-}
-
-/* Feinsteuerung der Buchstabenpositionen, falls nötig */
-.title-full .j,
-.title-short .j {
-  display: inline-block;
-}
-
-.title-full .v,
-.title-short .v {
-  display: inline-block;
-}
-
-.title-full .o,
-.title-short .o {
-  display: inline-block;
 }
 
 .navigation-main {
