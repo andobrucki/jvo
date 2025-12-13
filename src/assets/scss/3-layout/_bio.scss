@@ -1,0 +1,134 @@
+/* =====================
+   Root container
+===================== */
+.bio {
+  max-width: var(--max-width-lg);
+  margin: 0 auto;
+
+  /* =====================
+     Layout (2 columns)
+  ===================== */
+  .bio-layout {
+    display: grid;
+    grid-template-columns: minmax(16rem, 1fr) 2fr;
+    gap: var(--space-xl);
+    align-items: start;
+
+    /* =====================
+       Columns
+    ===================== */
+    .bio-column {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-lg);
+
+      &--left {
+        position: sticky;
+        top: var(--space-lg);
+        align-self: start;
+      }
+
+      &--right {
+        min-width: 0;
+      }
+    }
+  }
+
+  /* =====================
+     Sections
+  ===================== */
+  .bio-section {
+    display: block;
+
+    .bio-section-title {
+      margin-bottom: var(--space-sm);
+      font-size: 0.875rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .bio-section-content {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-xs);
+    }
+  }
+
+  /* =====================
+     Rows (year + text)
+  ===================== */
+  .bio-row {
+    display: grid;
+    grid-template-columns: 4.5rem 1fr;
+    gap: var(--space-sm);
+    line-height: 1.4;
+  }
+
+  .bio-year-group {
+    display: flex;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-md);
+
+    .bio-year {
+      flex-shrink: 0;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1rem;
+      list-style: none;
+
+      li {
+        margin-bottom: var(--space-4xs);
+      }
+    }
+  }
+
+  /* =====================
+     Lists
+  ===================== */
+  .bio-list {
+    padding-left: 1.25rem;
+
+    li {
+      margin-bottom: var(--space-4xs);
+    }
+  }
+
+  /* =====================
+     Contact
+  ===================== */
+  .bio-address {
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4xs);
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  /* =====================
+     Responsive
+  ===================== */
+  @media (max-width: 768px) {
+    .bio-layout {
+      grid-template-columns: 1fr;
+
+      .bio-column--left {
+        position: static;
+      }
+    }
+
+    .bio-row {
+      grid-template-columns: 3.5rem 1fr;
+    }
+  }
+}

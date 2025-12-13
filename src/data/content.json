@@ -63,6 +63,167 @@
       }
     ]
   },
+
+  "bio": {
+    "artist": {
+      "name": "Jonas von Ostrowski",
+      "based_in": "lebt und arbeitet in Berlin und Los Angeles"
+    },
+
+    "education": [
+      {
+        "from": 2003,
+        "to": 2011,
+        "institution": "Hochschule für bildende Künste, Hamburg"
+      },
+      {
+        "from": 2007,
+        "to": 2008,
+        "institution": "École nationale supérieure des arts visuels de La Cambre, Brüssel"
+      }
+    ],
+    "curating": [
+      {
+        "from": 2014,
+        "to": 2017,
+        "institution": "Co-Leitung Projektraum „Prince of Wales“ in München"
+      },
+      {
+        "from": 2016,
+        "institution": "Gründung und Leitung Kunstraum „Los Angeles“, Günsterode"
+      }
+    ],
+    "awards_and_grants": [
+      {
+        "year": 2018,
+        "title": "Bayerischer Kunstförderpreis"
+      },
+      {
+        "year": 2019,
+        "title": "Stipendium für bildende Kunst der Landeshauptstadt München"
+      },
+      {
+        "year": "2021-2022",
+        "title": "Stipendiat der Stiftung Kunstfonds"
+      },
+      {
+        "year": 2021,
+        "title": "Katalogförderung der LfA"
+      },
+      {
+        "year": 2022,
+        "title": "Neustart Kultur Förderung"
+      },
+      {
+        "year": "2024/2025",
+        "title": "Lehrauftrag Kunsthochschule Kassel"
+      }
+    ],
+    "collections": [
+      {
+        "titel": "Sammlungen",
+        "Sammlungen": ["Bayerische Staatsgemäldesammlung", "Artothek München"]
+      }
+    ],
+    "contact": {
+      "name": "Jonas von Ostrowski",
+      "address_line_1": "Adresse 1",
+      "address_line_2": "Adresse 2",
+      "email": "Mailadresse",
+      "website": "Webadresse"
+    },
+    "exhibitions_and_projects": [
+      {
+        "year": 2024,
+        "title": [
+          "Your Favourite Artists From Los Angeles, Fächer, Berlin",
+          "„Thin Film“ (mit Marta Rinikier-Radich), A Certain Lack Of Coherence, Porto",
+          "346 Untitled Sculptures, Quivid München, Kunst am Bau",
+          "Kuration des Programms in Los Angeles, Günsterode"
+        ]
+      },
+      {
+        "year": 2023,
+        "title": [
+          "„Praxis der Orte“, Kunstverein St. Pauli, Hamburg",
+          "Jahresgaben, Kunstverein München (seit 2013)",
+          "Jahresgaben, Warte für Kunst, Kassel",
+          "Jahresgaben, Fächer, Berlin",
+          "Bühne für „Verfall“, Theater Bremen"
+        ]
+      },
+      {
+        "year": 2022,
+        "title": [
+          "„La II Barnale - A Back Door“, Los Angeles, Günsterode",
+          "„24 Houses“, Edition Taube",
+          "Kuration des Programms in Los Angeles. Günsterode"
+        ]
+      },
+      {
+        "year": 2021,
+        "title": [
+          "„Ruine München zeigt: ihren Förderverein“, Ruine München",
+          "Kuration des Programms in Los Angeles. Günsterode"
+        ]
+      },
+      {
+        "year": 2020,
+        "title": [
+          "„Supergroup“, Superhouse, New York City",
+          "„FFLA II“, Philipp Pflug Contemporary, Frankfurt",
+          "Grand Opening, „Los Angeles“, Günsterode",
+          "„This house is not a home“, Lothringer13, München",
+          "„FFLA“, Kunstraum, München"
+        ]
+      },
+      {
+        "year": 2019,
+        "title": [
+          "„Setting the Scene“, kuratiert von JvO, Lovaas Projects, München",
+          "„Exist“, Galerie der Künstler, München",
+          "„House With Clear Shapes and a Complex Entrance“, Los Angeles, Günsterode"
+        ]
+      },
+
+      {
+        "year": 2018,
+        "title": [
+          "„Künstlerwerkzeuge“ (mit Johannes Tassilo Walter), Platform, München",
+          "„Neue Häuser“, agm, München",
+          "L.LA.C., Hammann von Mier Verlag, München"
+        ]
+      },
+      {
+        "year": 2017,
+        "title": [
+          "Bühne für „Trüffel Trüffel Trüffel“, Kammerspiele München",
+          "„Hidden Lines of Space“, Kunstverein am Rosa-Luxemburg-Platz, Berlin",
+          "„Theatre of Measurement“, Kunstverein München",
+          "„Mittsommer“, Artothek München",
+          "„Stonewashed“, kuratiert von Konstantin Lannert, Amerlinggasse, Wien",
+          "„Salon de Bobanisme“, Cité des Arts, Paris"
+        ]
+      },
+      {
+        "year": 2016,
+        "title": [
+          "Bühne für „The ReSearch“, Kammerspiele München",
+          "„Menthaphysica“, Easy!upstream, München"
+        ]
+      },
+      {
+        "year": 2015,
+        "title": [
+          "Kunstraum Jahresgaben, Kunstraum, München",
+          "„THE (W)HOLE DECK“, Artothek, München",
+          "„Collateral Collaborations“, Galerie Ostrakon, Mailand",
+          "Bühne für „Goldland“, Stadttheater Augsburg"
+        ]
+      }
+    ]
+  },
+
   "projects": [
     {
       "id": 0,
