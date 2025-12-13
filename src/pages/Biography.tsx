@@ -1,7 +1,6 @@
+import bioData from "../data/content.json";
+import Bio from "../components/BioComponent";
+
 export default function Biography() {
-  return (
-    <div>
-      <h1>Biography</h1>
-    </div>
-  );
+  return <Bio data={bioData.bio} />;
 }
