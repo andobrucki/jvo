@@ -31,9 +31,12 @@ export default function Navigation() {
         </li>
       </ul>{" "}
       {/* 4. Interner Link zum Raum mit Slideshow */}
-      <li className="research-development">
-        <Link to="/research-development">research + development </Link>
-      </li>
+      <ul>
+        {" "}
+        <li className="research-development">
+          <Link to="/research-development">research + development </Link>
+        </li>
+      </ul>
     </nav>
   );
 }

@@ -1,22 +1,30 @@
 .header {
   // border: 2px tomato solid;
-  height: 400px;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  margin-top: 10rem;
+//  padding-block: var(--space-sm);
+//   padding-inline: var(--space-md);
+
   z-index: 100;
 }
 
+.title-wrapper {
+  position: relative;
+ height: 1.5rem;
+}
 /* Beide Titel exakt übereinander */
 .title-full,
 .title-short {
   position: absolute;
-  top: 0;
-  left: 0;
+  inset: bold;
   font-weight: bold;
   color: var(--color-accent);
   text-transform: uppercase;
@@ -37,9 +45,6 @@
 }
 
 .navigation-main {
-  position: fixed;
-  top: 0;
-  right: 0;
   width: 9rem;
   margin-right: 20px;
   z-index: 100;
