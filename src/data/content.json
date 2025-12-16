@@ -246,20 +246,69 @@
       ],
       "images": {
         "main": {
-          "src": "images/346-untitled-sculptures/346-untitled-sculptures.png",
-          "alt": "alt text"
-        },
-        "secondary": {
-          "src": "/images/346-untitled-sculptures/346-untitled-sculptures.png",
+          "src": "images/346-untitled-sculptures/346-sculptures-1.png",
           "alt": "alt text"
         },
         "gallery": [
           {
-            "src": "/images/346-untitled-sculptures/346-untitled-sculptures.png",
+            "src": "images/346-untitled-sculptures/346-sculptures-2.png",
             "alt": "alt text"
           },
           {
-            "src": "/images/346-untitled-sculptures/346-untitled-sculptures.png",
+            "src": "images/346-untitled-sculptures/346-sculptures-3.png",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/346-untitled-sculptures/346-sculptures-4.png",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/346-untitled-sculptures/346-sculptures-5.png",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/346-untitled-sculptures/346-sculptures-6.png",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/346-untitled-sculptures/346-sculptures-7.png",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/346-untitled-sculptures/346-sculptures-8.png",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/346-untitled-sculptures/346-sculptures-9.png",
+            "alt": "alt text"
+          },
+
+          {
+            "src": "images/346-untitled-sculptures/346-sculptures-10.png",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/346-untitled-sculptures/346-sculptures-11.png",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/346-untitled-sculptures/346-sculptures-12.png",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/346-untitled-sculptures/346-sculptures-13.png",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/346-untitled-sculptures/346-sculptures-14.png",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/346-untitled-sculptures/346-sculptures-15.png",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/346-untitled-sculptures/346-sculptures-16.png",
             "alt": "alt text"
           }
         ]
@@ -288,20 +337,20 @@
       "images": {
         "main": {
           "src": "http://imageipsum.com/1200x675",
-          "alt": "Smiley alt text"
+          "alt": "alt text"
         },
         "secondary": {
           "src": "http://imageipsum.com/1200x675",
-          "alt": "Smiley alt text"
+          "alt": "alt text"
         },
         "gallery": [
           {
             "src": "http://imageipsum.com/1200x675",
-            "alt": "Smiley alt text"
+            "alt": "alt text"
           },
           {
             "src": "http://imageipsum.com/1200x675",
-            "alt": "Smiley alt text"
+            "alt": "alt text"
           }
         ],
         "media": [
@@ -334,21 +383,37 @@
       ],
       "images": {
         "main": {
-          "src": "http://imageipsum.com/1200x675",
-          "alt": "Smiley alt text"
+          "src": "images/entrechambre/entrechambre-1.webp",
+          "alt": "entrechambre alt text"
         },
         "secondary": {
-          "src": "http://imageipsum.com/1200x675",
-          "alt": "Smiley alt text"
+          "src": "images/entrechambre/entrechambre-2.webp",
+          "alt": "entrechambre alt text"
         },
         "gallery": [
           {
-            "src": "http://imageipsum.com/1200x675",
-            "alt": "Smiley alt text"
+            "src": "images/entrechambre/entrechambre-3.webp",
+            "alt": "entrechambre alt text"
           },
           {
-            "src": "http://imageipsum.com/1200x675",
-            "alt": "Smiley alt text"
+            "src": "images/entrechambre/entrechambre-4.webp",
+            "alt": "entrechambre alt text"
+          },
+          {
+            "src": "images/entrechambre/entrechambre-5.webp",
+            "alt": "entrechambre alt text"
+          },
+          {
+            "src": "images/entrechambre/entrechambre-6.webp",
+            "alt": "entrechambre alt text"
+          },
+          {
+            "src": "images/entrechambre/entrechambre-7.webp",
+            "alt": "entrechambre alt text"
+          },
+          {
+            "src": "images/entrechambre/entrechambre-8.webp",
+            "alt": "entrechambre alt text"
           }
         ],
         "media": [
@@ -381,16 +446,44 @@
       ],
       "images": {
         "main": {
-          "src": "images/the-office-is-reality/the-office-is-reality.png",
+          "src": "images/the-office-is-reality/the-office-is-reality-1.webp",
           "alt": "alt text"
         },
         "gallery": [
           {
-            "src": "images/the-office-is-reality/the-office-is-reality.png",
+            "src": "images/the-office-is-reality/the-office-is-reality-2.webp",
             "alt": "alt text"
           },
           {
-            "src": "images/the-office-is-reality/the-office-is-reality.png",
+            "src": "images/the-office-is-reality/the-office-is-reality-3.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/the-office-is-reality/the-office-is-reality-4.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/the-office-is-reality/the-office-is-reality-5.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/the-office-is-reality/the-office-is-reality-6.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/the-office-is-reality/the-office-is-reality-7.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/the-office-is-reality/the-office-is-reality-8.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/the-office-is-reality/the-office-is-reality-9.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/the-office-is-reality/the-office-is-reality-10.webp",
             "alt": "alt text"
           }
         ],
@@ -420,20 +513,36 @@
       ],
       "images": {
         "main": {
-          "src": "images/thin-film/thin-film-01.png",
+          "src": "images/thin-film/thin-film-1.webp",
           "alt": "alt text"
         },
         "secondary": {
-          "src": "images/thin-film/thin-film-02.png",
+          "src": "images/thin-film/thin-film-2.webp",
           "alt": "alt text"
         },
         "gallery": [
           {
-            "src": "images/thin-film/thin-film-01.png",
+            "src": "images/thin-film/thin-film-3.webp",
             "alt": "alt text"
           },
           {
-            "src": "images/thin-film/thin-film-02.png",
+            "src": "images/thin-film/thin-film-4.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/thin-film/thin-film-5.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/thin-film/thin-film-6.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/thin-film/thin-film-7.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/thin-film/thin-film-8.webp",
             "alt": "alt text"
           }
         ],
@@ -514,16 +623,72 @@
       ],
       "images": {
         "main": {
-          "src": "images/house-with-clear-shapes-and-a-complex-entrance/house.png",
+          "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-1.webp",
           "alt": "alt text"
         },
         "gallery": [
           {
-            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house.png",
+            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-2.webp",
             "alt": "alt text"
           },
           {
-            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house.png",
+            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-3.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-4.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-5.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-6.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-7.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-8.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-9.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-10.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-11.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-12.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-13.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-14.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-15.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-16.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-17.webp",
             "alt": "alt text"
           }
         ],
@@ -557,17 +722,29 @@
       ],
       "images": {
         "main": {
-          "src": "images/furniture-for-los-angeles/ffla.png",
-          "alt": "Smiley alt text"
+          "src": "images/furniture-for-los-angeles/FFLA-1.webp",
+          "alt": "alt text"
         },
         "gallery": [
           {
-            "src": "images/furniture-for-los-angeles/ffla.png",
-            "alt": "Smiley alt text"
+            "src": "images/furniture-for-los-angeles/FFLA-2.webp",
+            "alt": "alt text"
           },
           {
-            "src": "images/furniture-for-los-angeles/ffla.png",
-            "alt": "Smiley alt text"
+            "src": "images/furniture-for-los-angeles/FFLA-3.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/furniture-for-los-angeles/FFLA-4.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/furniture-for-los-angeles/FFLA-5.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/furniture-for-los-angeles/FFLA-6.webp",
+            "alt": "alt text"
           }
         ],
         "media": [
@@ -600,20 +777,36 @@
       ],
       "images": {
         "main": {
-          "src": "images/24-houses/24-houses-01.png",
+          "src": "images/24-houses/24-houses-1.webp",
           "alt": "alt text"
         },
         "secondary": {
-          "src": "images/24-houses/24-houses-02.png",
+          "src": "images/24-houses/24-houses-2.webp",
           "alt": "alt text"
         },
         "gallery": [
           {
-            "src": "images/24-houses/24-houses-01.png",
+            "src": "images/24-houses/24-houses-3.webp",
             "alt": "alt text"
           },
           {
-            "src": "images/24-houses/24-houses-01.png",
+            "src": "images/24-houses/24-houses-4.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/24-houses/24-houses-5.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/24-houses/24-houses-6.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/24-houses/24-houses-7.webp",
+            "alt": "alt text"
+          },
+          {
+            "src": "images/24-houses/24-houses-8.webp",
             "alt": "alt text"
           }
         ],
@@ -647,20 +840,16 @@
       ],
       "images": {
         "main": {
-          "src": "images/verfall/verfall-01.png",
+          "src": "images/verfall/verfall-1.webp",
           "alt": "alt text"
         },
         "secondary": {
-          "src": "images/verfall/verfall-02.png",
+          "src": "images/verfall/verfall-2.webp",
           "alt": "alt text"
         },
         "gallery": [
           {
-            "src": "images/verfall/verfall-01.png",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/verfall/verfall-01.png",
+            "src": "images/verfall/verfall-3.webp",
             "alt": "alt text"
           }
         ],
