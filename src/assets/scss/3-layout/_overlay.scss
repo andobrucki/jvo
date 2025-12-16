@@ -1,0 +1,13 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: green;
+  z-index: 1000;
+  transform: translateY(40%);
+  transition: transform 3s ease-in-out;
+  pointer-events: none;
+}
+
+.overlay-active {
+  transform: translateY(30%);
+}
