@@ -4,7 +4,8 @@
     "title": "Jonas von Ostrowski",
     "image": {
       "src": "images/titelbild/the-world-is-narrow-and-the-mind-is-wide.png",
-      "alt": "Smiley alt text"
+      "alt": "Smiley alt text",
+      "caption": ""
     }
   },
   "about": {
@@ -244,75 +245,103 @@
           "content": "<p>Diese Kleinplastiken sind auf einfachste Weise geformt. Sie sind im eigentlichen Sinne nicht gestaltet, eher schnell modelliert. Bei genauerer Betrachtung und Berührung erkennt man die Spuren dieses Formens: Fingerabdrücke weisen darauf hin, dass hier das naheliegenste aller denkbaren Werkzeuge benutzt wurde – die Hand. Die Klinken sind alle ähnlich, dennoch gibt es keine, die einer anderen völlig gleicht. In Aussehen und Farbe sind sie alle unterschiedlich, wie die Hände, die sie drücken.</p><p>Jede dieser ausgeprägten Klinkenindividuen ist das sicht- und spürbare Instrument einer Schwellenüberschreitung. Der Eindruck, das Gefühl, das sie bei der Berührung hinterlassen, ist mit den jeweiligen Räumen situativ verbunden.</p><p>Hier passiert dabei noch etwas: indem die Klinken ihre Geformtheit offenbaren, wird das harte Metall sozusagen wieder weich. Dass man sieht und fühlt, dass das Material geformt wurde, zeigt einem, dass Material formbar ist. Und damit wird klar, dass jede Form nur ein Vorschlag ist, jede Türklinke nur ein Modell, jedes Haus, jede Lebensweise, jede Weltsicht nur eine Möglichkeit von vielen.</p><p>Unter Umständen wird hier also nicht nur von einem Klassenraum zum anderen gewechselt, sondern es öffnet sich auch zwischen dem Konkreten und dem Imaginären, zwischen dem Notwendigen und dem Möglichen eine Tür – eine haptische, eine fühlbare Verbindung.</p>"
         }
       ],
+
       "images": {
         "main": {
           "src": "images/346-untitled-sculptures/346-sculptures-1.png",
-          "alt": "alt text"
-        },
-        "gallery": [
-          {
-            "src": "images/346-untitled-sculptures/346-sculptures-2.png",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/346-untitled-sculptures/346-sculptures-3.png",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/346-untitled-sculptures/346-sculptures-4.png",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/346-untitled-sculptures/346-sculptures-5.png",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/346-untitled-sculptures/346-sculptures-6.png",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/346-untitled-sculptures/346-sculptures-7.png",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/346-untitled-sculptures/346-sculptures-8.png",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/346-untitled-sculptures/346-sculptures-9.png",
-            "alt": "alt text"
-          },
+          "alt": "alt text",
+          "caption": ""
+        }
+      },
 
-          {
-            "src": "images/346-untitled-sculptures/346-sculptures-10.png",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/346-untitled-sculptures/346-sculptures-11.png",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/346-untitled-sculptures/346-sculptures-12.png",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/346-untitled-sculptures/346-sculptures-13.png",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/346-untitled-sculptures/346-sculptures-14.png",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/346-untitled-sculptures/346-sculptures-15.png",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/346-untitled-sculptures/346-sculptures-16.png",
-            "alt": "alt text"
-          }
-        ]
-      }
+      "contentBlocks": [
+        {
+          "type": "slider",
+          "images": [
+            {
+              "src": "images/346-untitled-sculptures/346-sculptures-2.png",
+              "alt": "alt text",
+              "caption": "364 Untitled Sculptures"
+            },
+            {
+              "src": "images/346-untitled-sculptures/346-sculptures-3.png",
+              "alt": "alt text",
+              "caption": "364 Untitled Sculptures"
+            },
+            {
+              "src": "images/346-untitled-sculptures/346-sculptures-4.png",
+              "alt": "alt text",
+              "caption": "364 Untitled Sculptures"
+            },
+            {
+              "src": "images/346-untitled-sculptures/346-sculptures-5.png",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/346-untitled-sculptures/346-sculptures-6.png",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/346-untitled-sculptures/346-sculptures-7.png",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/346-untitled-sculptures/346-sculptures-8.png",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/346-untitled-sculptures/346-sculptures-9.png",
+              "alt": "alt text",
+              "caption": ""
+            },
+
+            {
+              "src": "images/346-untitled-sculptures/346-sculptures-10.png",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/346-untitled-sculptures/346-sculptures-11.png",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/346-untitled-sculptures/346-sculptures-12.png",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/346-untitled-sculptures/346-sculptures-13.png",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/346-untitled-sculptures/346-sculptures-14.png",
+              "alt": "alt text",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "type": "fullImage",
+          "images": [
+            {
+              "src": "images/346-untitled-sculptures/346-sculptures-15.png",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/346-untitled-sculptures/346-sculptures-16.png",
+              "alt": "alt text",
+              "caption": ""
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 1,
@@ -336,31 +365,59 @@
       ],
       "images": {
         "main": {
-          "src": "http://imageipsum.com/1200x675",
-          "alt": "alt text"
+          "src": "images/smiley.png",
+          "alt": "alt text",
+          "caption": ""
         },
         "secondary": {
-          "src": "http://imageipsum.com/1200x675",
-          "alt": "alt text"
+          "src": "images/smiley.png",
+          "alt": "alt text",
+          "caption": ""
+        }
+      },
+
+      "contentBlocks": [
+        {
+          "type": "fullImage",
+          "images": [
+            {
+              "src": "images/smiley.png",
+              "alt": "alt text",
+              "caption": ""
+            }
+          ]
         },
-        "gallery": [
-          {
-            "src": "http://imageipsum.com/1200x675",
-            "alt": "alt text"
-          },
-          {
-            "src": "http://imageipsum.com/1200x675",
-            "alt": "alt text"
-          }
-        ],
-        "media": [
-          {
-            "type": "",
-            "src": "",
-            "poster": ""
-          }
-        ]
-      }
+        {
+          "type": "slider",
+          "images": [
+            {
+              "src": "images/smiley.png",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/smiley.png",
+              "alt": "alt text",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "type": "fullImage",
+          "images": [
+            {
+              "src": "images/smiley.png",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/smiley.png",
+              "alt": "alt text",
+              "caption": ""
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 2,
@@ -384,47 +441,60 @@
       "images": {
         "main": {
           "src": "images/entrechambre/entrechambre-1.webp",
-          "alt": "entrechambre alt text"
+          "alt": "entrechambre alt text",
+          "caption": ""
         },
         "secondary": {
           "src": "images/entrechambre/entrechambre-2.webp",
-          "alt": "entrechambre alt text"
+          "alt": "entrechambre alt text",
+          "caption": ""
+        }
+      },
+
+      "contentBlocks": [
+        {
+          "type": "fullImage",
+          "images": [
+            {
+              "src": "images/entrechambre/entrechambre-3.webp",
+              "alt": "entrechambre alt text",
+              "caption": ""
+            }
+          ]
         },
-        "gallery": [
-          {
-            "src": "images/entrechambre/entrechambre-3.webp",
-            "alt": "entrechambre alt text"
-          },
-          {
-            "src": "images/entrechambre/entrechambre-4.webp",
-            "alt": "entrechambre alt text"
-          },
-          {
-            "src": "images/entrechambre/entrechambre-5.webp",
-            "alt": "entrechambre alt text"
-          },
-          {
-            "src": "images/entrechambre/entrechambre-6.webp",
-            "alt": "entrechambre alt text"
-          },
-          {
-            "src": "images/entrechambre/entrechambre-7.webp",
-            "alt": "entrechambre alt text"
-          },
-          {
-            "src": "images/entrechambre/entrechambre-8.webp",
-            "alt": "entrechambre alt text"
-          }
-        ],
-        "media": [
-          {
-            "type": "",
-            "src": "",
-            "poster": ""
-          }
-        ]
-      }
+        {
+          "type": "slider",
+          "images": [
+            {
+              "src": "images/entrechambre/entrechambre-4.webp",
+              "alt": "entrechambre alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/entrechambre/entrechambre-5.webp",
+              "alt": "entrechambre alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/entrechambre/entrechambre-6.webp",
+              "alt": "entrechambre alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/entrechambre/entrechambre-7.webp",
+              "alt": "entrechambre alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/entrechambre/entrechambre-8.webp",
+              "alt": "entrechambre alt text",
+              "caption": ""
+            }
+          ]
+        }
+      ]
     },
+
     {
       "id": 3,
       "layout": "b",
@@ -447,54 +517,68 @@
       "images": {
         "main": {
           "src": "images/the-office-is-reality/the-office-is-reality-1.webp",
-          "alt": "alt text"
+          "alt": "alt text",
+          "caption": ""
+        }
+      },
+
+      "contentBlocks": [
+        {
+          "type": "fullImage",
+          "images": [
+            {
+              "src": "images/the-office-is-reality/the-office-is-reality-2.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/the-office-is-reality/the-office-is-reality-3.webp",
+              "alt": "alt text",
+              "caption": ""
+            }
+          ]
         },
-        "gallery": [
-          {
-            "src": "images/the-office-is-reality/the-office-is-reality-2.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/the-office-is-reality/the-office-is-reality-3.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/the-office-is-reality/the-office-is-reality-4.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/the-office-is-reality/the-office-is-reality-5.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/the-office-is-reality/the-office-is-reality-6.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/the-office-is-reality/the-office-is-reality-7.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/the-office-is-reality/the-office-is-reality-8.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/the-office-is-reality/the-office-is-reality-9.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/the-office-is-reality/the-office-is-reality-10.webp",
-            "alt": "alt text"
-          }
-        ],
-        "media": [
-          {
-            "type": "",
-            "src": "",
-            "poster": ""
-          }
-        ]
-      }
+        {
+          "type": "slider",
+          "images": [
+            {
+              "src": "images/the-office-is-reality/the-office-is-reality-4.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/the-office-is-reality/the-office-is-reality-5.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/the-office-is-reality/the-office-is-reality-6.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/the-office-is-reality/the-office-is-reality-7.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/the-office-is-reality/the-office-is-reality-8.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/the-office-is-reality/the-office-is-reality-9.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/the-office-is-reality/the-office-is-reality-10.webp",
+              "alt": "alt text",
+              "caption": ""
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 4,
@@ -514,46 +598,58 @@
       "images": {
         "main": {
           "src": "images/thin-film/thin-film-1.webp",
-          "alt": "alt text"
+          "alt": "alt text",
+          "caption": "THIN FILM"
         },
         "secondary": {
           "src": "images/thin-film/thin-film-2.webp",
-          "alt": "alt text"
+          "alt": "alt text",
+          "caption": "THIN FILM"
+        }
+      },
+
+      "contentBlocks": [
+        {
+          "type": "fullImage",
+          "images": [
+            {
+              "src": "images/thin-film/thin-film-3.webp",
+              "alt": "alt text",
+              "caption": "THIN FILM"
+            }
+          ]
         },
-        "gallery": [
-          {
-            "src": "images/thin-film/thin-film-3.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/thin-film/thin-film-4.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/thin-film/thin-film-5.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/thin-film/thin-film-6.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/thin-film/thin-film-7.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/thin-film/thin-film-8.webp",
-            "alt": "alt text"
-          }
-        ],
-        "media": [
-          {
-            "type": "",
-            "src": "",
-            "poster": ""
-          }
-        ]
-      }
+        {
+          "type": "slider",
+          "images": [
+            {
+              "src": "images/thin-film/thin-film-4.webp",
+              "alt": "alt text",
+              "caption": "THIN FILM"
+            },
+            {
+              "src": "images/thin-film/thin-film-5.webp",
+              "alt": "alt text",
+              "caption": "THIN FILM"
+            },
+            {
+              "src": "images/thin-film/thin-film-6.webp",
+              "alt": "alt text",
+              "caption": "THIN FILM"
+            },
+            {
+              "src": "images/thin-film/thin-film-7.webp",
+              "alt": "alt text",
+              "caption": "THIN FILM"
+            },
+            {
+              "src": "images/thin-film/thin-film-8.webp",
+              "alt": "alt text",
+              "caption": "THIN FILM"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 5,
@@ -577,30 +673,47 @@
       "images": {
         "main": {
           "src": "images/los-angeles/los-angeles-01.png",
-          "alt": "alt text"
+          "alt": "alt text",
+          "caption": ""
         },
         "secondary": {
           "src": "images/los-angeles/los-angeles-02.png",
-          "alt": "alt text"
+          "alt": "alt text",
+          "caption": ""
+        }
+      },
+      "contentBlocks": [
+        {
+          "type": "slider",
+          "images": [
+            {
+              "src": "images/los-angeles/los-angeles-01.png",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/los-angeles/los-angeles-02.png",
+              "alt": "alt text",
+              "caption": ""
+            }
+          ]
         },
-        "gallery": [
-          {
-            "src": "images/los-angeles/los-angeles-01.png",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/los-angeles/los-angeles-02.png",
-            "alt": "alt text"
-          }
-        ],
-        "media": [
-          {
-            "type": "",
-            "src": "",
-            "poster": ""
-          }
-        ]
-      }
+        {
+          "type": "fullImage",
+          "images": [
+            {
+              "src": "images/los-angeles/los-angeles-01.png",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/los-angeles/los-angeles-02.png",
+              "alt": "alt text",
+              "caption": ""
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 6,
@@ -624,82 +737,104 @@
       "images": {
         "main": {
           "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-1.webp",
-          "alt": "alt text"
+          "alt": "alt text",
+          "caption": ""
+        }
+      },
+      "contentBlocks": [
+        {
+          "type": "fullImage",
+          "images": [
+            {
+              "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-2.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+
+            {
+              "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-5.webp",
+              "alt": "alt text",
+              "caption": ""
+            }
+          ]
         },
-        "gallery": [
-          {
-            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-2.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-3.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-4.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-5.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-6.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-7.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-8.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-9.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-10.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-11.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-12.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-13.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-14.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-15.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-16.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-17.webp",
-            "alt": "alt text"
-          }
-        ],
-        "media": [
-          {
-            "type": "",
-            "src": "",
-            "poster": ""
-          }
-        ]
-      }
+        {
+          "type": "slider",
+          "images": [
+            {
+              "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-3.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-4.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+
+            {
+              "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-6.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-7.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-8.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-9.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-10.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-11.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-12.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-13.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-14.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-15.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-16.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/house-with-clear-shapes-and-a-complex-entrance/house-with-clear-shapes-and-a-complex-entrance-17.webp",
+              "alt": "alt text",
+              "caption": ""
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 7,
@@ -723,38 +858,47 @@
       "images": {
         "main": {
           "src": "images/furniture-for-los-angeles/FFLA-1.webp",
-          "alt": "alt text"
+          "alt": "alt text",
+          "caption": ""
+        }
+      },
+      "contentBlocks": [
+        {
+          "type": "slider",
+          "images": [
+            {
+              "src": "images/furniture-for-los-angeles/FFLA-2.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/furniture-for-los-angeles/FFLA-3.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/furniture-for-los-angeles/FFLA-4.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/furniture-for-los-angeles/FFLA-5.webp",
+              "alt": "alt text",
+              "caption": ""
+            }
+          ]
         },
-        "gallery": [
-          {
-            "src": "images/furniture-for-los-angeles/FFLA-2.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/furniture-for-los-angeles/FFLA-3.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/furniture-for-los-angeles/FFLA-4.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/furniture-for-los-angeles/FFLA-5.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/furniture-for-los-angeles/FFLA-6.webp",
-            "alt": "alt text"
-          }
-        ],
-        "media": [
-          {
-            "type": "",
-            "src": "",
-            "poster": ""
-          }
-        ]
-      }
+        {
+          "type": "fullImage",
+          "images": [
+            {
+              "src": "images/furniture-for-los-angeles/FFLA-6.webp",
+              "alt": "alt text",
+              "caption": ""
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 8,
@@ -778,46 +922,57 @@
       "images": {
         "main": {
           "src": "images/24-houses/24-houses-1.webp",
-          "alt": "alt text"
+          "alt": "alt text",
+          "caption": ""
         },
         "secondary": {
           "src": "images/24-houses/24-houses-2.webp",
-          "alt": "alt text"
+          "alt": "alt text",
+          "caption": ""
+        }
+      },
+      "contentBlocks": [
+        {
+          "type": "slider",
+          "images": [
+            {
+              "src": "images/24-houses/24-houses-3.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/24-houses/24-houses-4.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/24-houses/24-houses-5.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/24-houses/24-houses-6.webp",
+              "alt": "alt text",
+              "caption": ""
+            },
+            {
+              "src": "images/24-houses/24-houses-7.webp",
+              "alt": "alt text",
+              "caption": ""
+            }
+          ]
         },
-        "gallery": [
-          {
-            "src": "images/24-houses/24-houses-3.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/24-houses/24-houses-4.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/24-houses/24-houses-5.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/24-houses/24-houses-6.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/24-houses/24-houses-7.webp",
-            "alt": "alt text"
-          },
-          {
-            "src": "images/24-houses/24-houses-8.webp",
-            "alt": "alt text"
-          }
-        ],
-        "media": [
-          {
-            "type": "",
-            "src": "",
-            "poster": ""
-          }
-        ]
-      }
+        {
+          "type": "fullImage",
+          "images": [
+            {
+              "src": "images/24-houses/24-houses-8.webp",
+              "alt": "alt text",
+              "caption": ""
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 9,
@@ -841,26 +996,31 @@
       "images": {
         "main": {
           "src": "images/verfall/verfall-1.webp",
-          "alt": "alt text"
+          "alt": "alt text",
+          "caption": ""
         },
         "secondary": {
           "src": "images/verfall/verfall-2.webp",
-          "alt": "alt text"
+          "alt": "alt text",
+          "caption": ""
+        }
+      },
+      "contentBlocks": [
+        {
+          "type": "slider",
+          "images": []
         },
-        "gallery": [
-          {
-            "src": "images/verfall/verfall-3.webp",
-            "alt": "alt text"
-          }
-        ],
-        "media": [
-          {
-            "type": "",
-            "src": "",
-            "poster": ""
-          }
-        ]
-      }
+        {
+          "type": "fullImage",
+          "images": [
+            {
+              "src": "images/verfall/verfall-3.webp",
+              "alt": "alt text",
+              "caption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
