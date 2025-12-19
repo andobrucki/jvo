@@ -4,7 +4,7 @@ import AboutSection from "../components/AboutSection";
 import ProjectIntro from "../components/ProjectIntro";
 import Header from "../components/Header";
 
-export default function Home() {
+export default function Root() {
   return (
     <>
       <Header />

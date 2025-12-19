@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import Home from "./pages/Home";
+import Home from "./pages/Root";
 import Biography from "./pages/Biography";
-import { Slideshow } from "./pages/Slideshow";
+// import { Slideshow } from "./pages/Slideshow";
 
 /* Wrapper-Komponente, die useLocation nutzt
 Erklärung:
@@ -27,10 +27,10 @@ function AppContent() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/bio" element={<Biography />} />
-      <Route
+      {/* <Route
         path="/research-development"
         element={<Slideshow totalImages={107} intervalMs={1000} />}
-      />
+      /> */}
     </Routes>
   );
 }
