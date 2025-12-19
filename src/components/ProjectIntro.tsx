@@ -1,5 +1,4 @@
-import { useState } from "react";
-import Slider from "./Slider";
+import ContentBlocks from "./ContentBlocks";
 
 type TextBlock = {
   id: string;
@@ -10,12 +9,6 @@ type Image = {
   src: string;
   alt: string;
   caption: string;
-};
-
-type Media = {
-  type: string;
-  src: string;
-  poster?: string;
 };
 
 type Project = {
@@ -29,38 +22,20 @@ type Project = {
   images?: {
     main?: Image;
     secondary?: Image;
-    gallery?: Image[];
-    media?: Media[];
   };
 };
 
-type ProjectSectionProps = {
+type ProjectIntroProps = {
   project: Project;
 };
 
-export default function ProjectSection({ project }: ProjectSectionProps) {
-  const [isSliderOpen, setIsSliderOpen] = useState(false);
-  const [activeIndex, setActiveIndex] = useState(0);
-  if (!project) {
-    return null;
-  }
+export default function ProjectIntro({ project }: ProjectIntroProps) {
+  if (!project) return null;
 
   const { layout, title, textBlocks, images } = project;
 
   const text1 = textBlocks[0];
   const text2 = textBlocks[1];
-
-  const allImages: Image[] = [];
-  if (images?.main) allImages.push(images.main);
-  if (images?.secondary) allImages.push(images.secondary);
-  if (images?.gallery) allImages.push(...images.gallery);
-
-  const openSlider = (index: number) => {
-    setActiveIndex(index);
-    setIsSliderOpen(true);
-  };
-
-  const closeSlider = () => setIsSliderOpen(false);
 
   const renderText = (block?: TextBlock) =>
     block ? (
@@ -70,17 +45,12 @@ export default function ProjectSection({ project }: ProjectSectionProps) {
       />
     ) : null;
 
-  const renderImage = (img?: Image, className?: string, index?: number) =>
+  const renderImage = (img?: Image, className?: string) =>
     img ? (
-      <img
-        src={img.src}
-        alt={img.alt}
-        className={className}
-        loading="lazy"
-        style={{ cursor: "pointer" }}
-        onClick={() => index !== undefined && openSlider(index)}
-      />
+      <img src={img.src} alt={img.alt} className={className} loading="lazy" />
     ) : null;
+
+  console.log(layout);
 
   const renderLayout = () => {
     switch (layout) {
@@ -165,37 +135,11 @@ export default function ProjectSection({ project }: ProjectSectionProps) {
           <p className="project-description">{description}</p>
         </div> */}
       </header>
-
       <div className="project-inner">{renderLayout()}</div>
 
-      {/* Galerie */}
-      {project.images?.gallery && (
-        <div className="project-gallery">
-          {project.images.gallery.map((img, idx) => (
-            <img
-              key={idx}
-              src={img.src}
-              alt={img.alt}
-              caption={img.caption}
-              loading="lazy"
-              style={{ cursor: "pointer" }}
-              onClick={() => openSlider(allImages.indexOf(img))}
-            />
-          ))}
-        </div>
-      )}
-
-      {isSliderOpen && (
-        <Slider
-          mediaData={allImages.map((img) => ({ type: "image", src: img.src }))}
-          fullMediaData={allImages.map((img) => ({
-            src: img.src,
-            caption: img.caption,
-          }))}
-          activeIndex={activeIndex}
-          closeSlider={closeSlider}
-        />
-      )}
+{project.contentBlocks && (
+  <ContentBlocks blocks={project.contentBlocks} />
+)}
     </section>
   );
 }

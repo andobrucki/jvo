@@ -1,10 +1,10 @@
 import content from "../data/content.json";
 import HomeSection from "../components/HomeSection";
 import AboutSection from "../components/AboutSection";
-import ProjectSection from "../components/ProjectSection";
+import ProjectIntro from "../components/ProjectIntro";
 import Header from "../components/Header";
 
-export default function Home() {
+export default function Root() {
   return (
     <>
       <Header />
@@ -14,7 +14,7 @@ export default function Home() {
         projects={content.about.projects}
       />
       {content.projects.map((proj) => (
-        <ProjectSection key={proj.id} project={proj} />
+        <ProjectIntro key={proj.id} project={proj} />
       ))}
     </>
   );

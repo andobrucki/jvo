@@ -1,0 +1,132 @@
+.slider {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+
+  &__img-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__close-btn,
+  &__prev-btn,
+  &__next-btn {
+    position: absolute;
+    background: transparent;
+    border: none;
+    padding: 0;
+    font-size: 2em;
+    cursor: pointer;
+    transition: 0.3s;
+    color: black;
+    z-index: 200;
+  }
+
+  &__close-btn {
+    top: 2vh;
+    right: 2.2vw;
+    font-size: 2.5em;
+  }
+
+  &__prev-btn {
+    left: 2vw;
+  }
+  &__next-btn {
+    right: 2.2vw;
+  }
+
+  &__prev-btn:hover,
+  &__next-btn:hover,
+  &__close-btn:hover {
+    color: var(--color-accent);
+  }
+
+  &__img.landscape {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; // Make the image fill the viewport while maintaining its aspect ratio
+  }
+
+  &__img.portrait {
+    width: auto; // Limit the width for portrait images
+    height: 100vh;
+    object-fit: contain;
+  }
+
+  &__caption {
+    position: absolute;
+    bottom: var(--space-lg);
+    left: var(--space-xl);
+    background-color: #ffffff;
+    font-size: 14px;
+    padding: 0 0.15rem;
+    border-radius: 1px;
+  }
+}
+
+//! MOBILE NAVIGATION
+@media (max-width: 768px) {
+  .slider {
+    &__img.landscape {
+      width: auto; // Limit the width for portrait images
+      height: 100vh;
+      object-fit: contain;
+    }
+
+    &__img.portrait {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover; // Make the image fill the viewport while maintaining its aspect ratio
+    }
+
+    &__caption {
+      position: absolute;
+      max-width: 90%;
+      bottom: var(--space-sm);
+      left: var(--space-sm);
+    }
+
+    svg {
+      font-size: 1.5rem;
+    }
+    &__close-btn {
+      svg {
+        font-size: 2rem;
+      }
+    }
+    &__prev-btn {
+      left: 2.2vw;
+    }
+    &__next-btn {
+      right: 2vw;
+    }
+  }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .slider {
+    &__img.landscape {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+    }
+
+    &__img.portrait {
+      width: auto; // Limit the width for portrait images
+      height: 100vh;
+      object-fit: contain;
+    }
+  }
+}
