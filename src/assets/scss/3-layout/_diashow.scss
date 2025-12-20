@@ -1,0 +1,13 @@
+.diashow-wrapper {
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+  left: 30%;
+  transform: translateX(-50%);
+  margin-top: 3rem;
+
+  .diashow-item {
+    border: 1px black solid;
+    padding: 1rem;
+  }
+}

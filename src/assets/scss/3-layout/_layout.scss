@@ -1,14 +1,34 @@
-/* Zwei-Spalten-Grundlayout mit leicht größerer linker Spalte */
+//! Zwei-Spalten-Grundlayout mit leicht größerer linker Spalte
 .project-inner,
 .about-page,
 .home .home-container {
   display: grid;
   grid-template-columns: 0.95fr 2.05fr;
-  gap: 4.5rem;
+  gap: 5rem;
   align-items: start;
   // border: 2px salmon solid;
 }
 
+//!Page Layout for Home and About
+.about-page {
+  gap: 2rem;
+}
+
+.home .home-container {
+  gap: 2rem;
+}
+
+.home .home-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.home .home-text h1 {
+  margin-top: 0;
+}
+
+//! Project Layout
 .project-inner .col-left,
 .project-inner .col-right,
 .about-page .about-intro,
@@ -20,11 +40,15 @@
   // border: 2px rgb(241, 232, 129) solid;
 }
 
+// .project-inner {
+//   padding-left: 3rem;
+// }
+
 /* Konsistentes Padding für alle Sections */
 .project-section,
 .about-page,
 .home {
-  padding-left: 6rem;
+  padding-left: 3rem;
   padding-right: 3rem;
   box-sizing: border-box;
 }
@@ -43,29 +67,58 @@
   display: block;
 }
 
-.project-gallery {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  margin-top: 1.5rem;
+// .project-gallery {
+//   display: grid;
+//   gap: 1rem;
+//   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+//   margin-top: 1.5rem;
+// }
+
+.project-inner {
+  .col-left h2,
+  .col-right h2 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  .col-right h2 {
+    padding: 2rem 6rem 1rem 2rem;
+  }
 }
 
-.about-page {
-  gap: 2rem;
+.col-left {
+  .project-text-block {
+    padding: 0 0 0 3rem;
+
+  
+  }  h2 {
+      padding: 6rem 0 1rem 3rem;
+    }
 }
 
-.home .home-container {
-  gap: 2rem;
+.col-right {
+  .project-text-block {
+    padding: 0 6rem 0 2rem;
+  }
 }
 
-.home .home-image {
-  max-width: 100%;
-  height: auto;
+.project-text-block {
+  text-align: justify;
+  hyphens: auto;
+}
+
+p {
+  margin-bottom: 1rem; /* Abstand zwischen Absätzen */
+}
+
+.project-text-block p:last-child {
+  margin-bottom: 0;
+}
+
+.project-text-block br {
   display: block;
-}
-
-.home .home-text h1 {
-  margin-top: 0;
+  content: "";
+  margin-bottom: 0.3rem;
 }
 
 /* Mobile Breakpoint */

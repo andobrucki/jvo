@@ -10,15 +10,15 @@
   align-items: center;
 
   margin-top: 10rem;
-//  padding-block: var(--space-sm);
-//   padding-inline: var(--space-md);
+  //  padding-block: var(--space-sm);
+  //  padding-inline: var(--space-md);
 
   z-index: 100;
 }
 
 .title-wrapper {
   position: relative;
- height: 1.5rem;
+  height: 1.5rem;
 }
 /* Beide Titel exakt übereinander */
 .title-full,
@@ -58,17 +58,25 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    // border: 1px solid blue;
-  }
 
-  li {
-    cursor: pointer;
-    // border: 1px solid lightpink;
-  }
+    li {
+      cursor: pointer;
 
-  li a {
-    text-decoration: none;
-    color: var(--color-accent);
-    transition: color 0.3s ease;
+      a,
+      button {
+        text-decoration: none;
+        color: var(--color-accent);
+        transition: color 0.3s ease;
+      }
+
+      button {
+        border: none;
+        background: none;
+        width: 50%;
+        cursor: pointer;
+        text-align: left;
+        padding: 0;
+      }
+    }
   }
 }

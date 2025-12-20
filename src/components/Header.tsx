@@ -1,7 +1,12 @@
 import { useState, useEffect } from "react";
 import Navigation from "./Navigation";
 
-export default function Header() {
+//Header bekommt setResearch als Prop
+interface HeaderProps {
+  setResearch: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+export default function Header({ setResearch }: HeaderProps ) {
   const [isCompressed, setIsCompressed] = useState(false);
 
   useEffect(() => {
@@ -29,7 +34,7 @@ export default function Header() {
         </h1>
       </div>
 
-      <Navigation />
+      <Navigation setResearch={setResearch}/>
     </header>
   );
 }
