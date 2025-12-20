@@ -24,6 +24,8 @@ export function Slideshow({ totalImages, intervalMs = 100 }: SlideshowProps) {
     return () => clearInterval(interval);
   }, [images, intervalMs]);
 
+  console.log("Slidewhow Research rendered");
+  
   return (
     <div className="slideshow-wrapper">
       <img

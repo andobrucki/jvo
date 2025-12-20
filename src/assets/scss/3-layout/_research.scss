@@ -1,0 +1,42 @@
+.viewport {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; /* Verhindert, dass der Slider über den Viewport hinaus rutscht */
+}
+
+.slider {
+  display: flex;
+  width: 200vw; /* 2 Seiten nebeneinander */
+  height: 100%;
+  transform: translateX(0);
+  transition: transform 0.9s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.slider.move {
+  transform: translateX(-100vw);
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+  overflow-y: auto; /* Scrollbar nur auf der Seite selbst */
+  -webkit-overflow-scrolling: touch; /* Smooth Scroll auf iOS */
+}
+
+.white {
+  background: white;
+}
+
+.black {
+  background: black;
+  color: white;
+}
+
+button.back {
+  z-index: 100;
+  color: white;
+  border: none;
+  background: none;
+  cursor: pointer;
+}

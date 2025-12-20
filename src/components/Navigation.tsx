@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom"; // import Link from "react-router-dom";
 
-export default function Navigation() {
+interface NavigationProps {
+  setResearch: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+export default function Navigation({ setResearch }: NavigationProps) {
   return (
     <nav className="navigation-main">
       <ul className="navigation-list">
@@ -34,7 +38,9 @@ export default function Navigation() {
       <ul>
         {" "}
         <li className="research-development">
-          <Link to="/research-development">research + development </Link>
+          <button onClick={() => setResearch(true)}>
+            research + development
+          </button>
         </li>
       </ul>
     </nav>
