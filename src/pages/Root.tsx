@@ -14,7 +14,7 @@ export default function Root() {
       {!research && <Header setResearch={setResearch} />}
 
       <div className="viewport">
-        <div className={`slider ${research ? "move" : ""}`}>
+        <div className={`page-slider ${research ? "move" : ""}`}>
           <div className="page white">
             {/* Weißer Raum */}
             <HomeSection
