@@ -1,0 +1,102 @@
+//!Content Blocks (Slider + Full Image) for project page
+//! Full Image Block
+.full-image-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.full-image-block img {
+  width: 100%; /* Querformate volle Breite */
+  aspect-ratio: auto / 1; /* Höhe passt sich automatisch an */
+  object-fit: cover;
+}
+
+//! Slider Block
+.slider {
+  cursor: none;
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+  margin: 2rem 0;
+  // border: 2px rebeccapurple solid;
+
+  &__image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    // border: 2px solid greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    // border: 2px solid red;
+    display: block;
+  }
+
+  &__image.landscape {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  &__image.portrait {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+  }
+  &__caption {
+    position: absolute;
+    bottom: var(--space-lg);
+    left: var(--space-xl);
+    background-color: #ffffff;
+    font-size: 14px;
+    padding: 0 0.15rem;
+    border-radius: 1px;
+  }
+  // &__prev-btn,
+  // &__next-btn {
+  //   position: absolute;
+  //   top: 50%;
+  //   transform: translateY(-50%);
+  //   background: transparent;
+  //   border: none;
+  //   color: black;
+  //   transition: 0.3s;
+  //   font-size: 2rem;
+  //   padding: 0.5rem 1rem;
+  //   cursor: pointer;
+  // }
+  // &__prev-btn:hover,
+  // &__next-btn:hover {
+  //   color: var(--color-accent);
+  //   border: red 1px solid;
+  // }
+
+  // &__prev-btn {
+  //   left: 1rem;
+  // }
+
+  // &__next-btn {
+  //   right: 1rem;
+  // }
+  .cursor-arrow {
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    font-size: 2.5rem; /* Icon-Größe */
+    color: var(--color-accent);
+    z-index: 9999;
+  }
+}

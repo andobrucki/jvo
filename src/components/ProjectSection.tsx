@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Slider from "./Slider";
+import Slider from "./Slider-la";
 
 type TextBlock = {
   id: string;

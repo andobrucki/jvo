@@ -50,6 +50,12 @@ const Slider: React.FC<SliderProps> = ({
       prevIndex === mediaData.length - 1 ? 0 : prevIndex + 1
     );
   };
+/**
+ * Go to the previous slide.
+ *
+ * If the current index is 0, go to the last slide.
+ * Otherwise, decrement the current index.
+ */
   const prevSlide = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? mediaData.length - 1 : prevIndex - 1

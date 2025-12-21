@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import { useEffect, useState } from "react";
+import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
+import { useSliderCursor } from "../hooks/useSliderCursor";
 
 type Image = {
   src: string;
@@ -12,26 +14,72 @@ type SliderBlockProps = {
 
 export default function SliderBlock({ images }: SliderBlockProps) {
   const [activeIndex, setActiveIndex] = useState(0);
+  const [isLandscape, setIsLandscape] = useState(true);
 
-  const next = () =>
-    setActiveIndex((prev) => (prev + 1) % images.length);
+  const next = () => setActiveIndex((prev) => (prev + 1) % images.length);
   const prev = () =>
     setActiveIndex((prev) => (prev - 1 + images.length) % images.length);
+
+  // 🧩 Cursor Hook
+  const { sliderRef, cursorX, cursorY, isLeftSide, handleMouseMove } =
+    useSliderCursor();
+
+  // 🖼 Landscape / Portrait detection
+  useEffect(() => {
+    const current = images[activeIndex];
+    if (!current?.src) return;
+
+    const img = new Image();
+    img.src = current.src;
+    img.onload = () => {
+      setIsLandscape(img.naturalWidth > img.naturalHeight);
+    };
+  }, [activeIndex, images]);
+
+  const handleClick = () => {
+    if (isLeftSide) {
+      prev();
+    } else {
+      next();
+    }
+  };
 
   if (!images || images.length === 0) return null;
 
   const current = images[activeIndex];
 
   return (
-    <div className="slider-block">
-      <div className="slider-image-wrapper">
-        <img src={current.src} alt={current.alt} className="slider-image" />
+    <div
+      ref={sliderRef}
+      onMouseMove={handleMouseMove}
+      onClick={handleClick}
+      className="slider"
+    >
+      <div className="slider__image-wrapper">
+        <img
+          src={current.src}
+          alt={current.alt}
+          className={`slider__image ${isLandscape ? "landscape" : "portrait"}`}
+        />
         {current.caption && (
-          <p className="slider-caption">{current.caption}</p>
+          <p className="slider__caption">{current.caption}</p>
         )}
       </div>
-      <button className="slider-prev" onClick={prev}>‹</button>
-      <button className="slider-next" onClick={next}>›</button>
+
+      {images.length > 1 && (
+        <>
+          {/* Cursor-Pfeil */}
+          <div
+            className="cursor-arrow"
+            style={{
+              left: cursorX,
+              top: cursorY,
+            }}
+          >
+            {isLeftSide ? <MdArrowBackIos /> : <MdArrowForwardIos />}
+          </div>
+        </>
+      )}
     </div>
   );
 }
